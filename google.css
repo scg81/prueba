@@ -1,0 +1,66 @@
+body{
+    background: white;
+    color: #202124;
+    font-family: arial;
+    font-size: 14px;
+  }
+  
+  #header{
+    display:flex;
+    height: 60px;
+    padding: 0.5rem;
+    justify-content:space-between;
+  }
+  
+  #header div{
+    padding: 0.5rem;
+  }
+  
+  a{
+    text-decoration:none;
+    color: #202124;
+    padding:0.5rem;
+  }
+  
+  .boton{
+    display:inline;
+    color:white;
+    background-color:#1C73E8;
+    width: 90px;
+    padding: 0.8em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 4px;
+
+  }
+  .iconmenu img{
+    width: 24px;
+    height: 24px;
+
+  }
+  
+  .iconmenu:hover{
+   background-color: red;
+
+  }
+
+  .boton:hover{
+   background-color:#235290;
+  }
+
+  .imagen{
+    display:flex;
+    justify-content: center;
+  }
+  .imagen img{
+    height: 92px;
+    margin: 0 auto;
+  }
+.search{
+ display:flex;
+ justify-content: center;
+ 
+}
+  .textSearch{
+
+  }
